@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A80DF2B3CC8B1839850044A /* Pods_CubeTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08FEA6B65291CB49E3571D9 /* Pods_CubeTimer.framework */; };
+		636683481DCC0ED8004780F0 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 636683461DCC0ED8004780F0 /* DataModel.xcdatamodeld */; };
+		6366834A1DCC2DEE004780F0 /* TimesTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636683491DCC2DEE004780F0 /* TimesTabBarController.swift */; };
+		6366834C1DCC2E6C004780F0 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6366834B1DCC2E6C004780F0 /* TimeModel.swift */; };
+		636683541DCC38BD004780F0 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636683531DCC38BD004780F0 /* ResultsTableViewController.swift */; };
+		63B85CC61DD5506300F2F968 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B85CC51DD5506300F2F968 /* SettingsViewController.swift */; };
+		63C8CBFA1DDD5B4800B0C253 /* IndivResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CBF91DDD5B4800B0C253 /* IndivResultsTableViewController.swift */; };
+		63D8AB791DCAD31400C9E55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8AB781DCAD31400C9E55B /* AppDelegate.swift */; };
+		63D8AB7B1DCAD31400C9E55B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8AB7A1DCAD31400C9E55B /* TimerViewController.swift */; };
+		63D8AB7E1DCAD31400C9E55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D8AB7C1DCAD31400C9E55B /* Main.storyboard */; };
+		63D8AB801DCAD31400C9E55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D8AB7F1DCAD31400C9E55B /* Assets.xcassets */; };
+		63D8AB831DCAD31400C9E55B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D8AB811DCAD31400C9E55B /* LaunchScreen.storyboard */; };
+		63D8AB8E1DCAD31400C9E55B /* CubeTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8AB8D1DCAD31400C9E55B /* CubeTimerTests.swift */; };
+		63D8AB991DCAD31400C9E55B /* CubeTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8AB981DCAD31400C9E55B /* CubeTimerUITests.swift */; };
+		63E6B89F1DE4DA4100B002D4 /* AnalyticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6B89E1DE4DA4100B002D4 /* AnalyticsTableViewController.swift */; };
+		63E6B8A11DE4F2D700B002D4 /* ScatterPlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6B8A01DE4F2D700B002D4 /* ScatterPlotViewController.swift */; };
+		63E6B8A31DE4FA9500B002D4 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6B8A21DE4FA9500B002D4 /* ExamplesDefaults.swift */; };
+		63E6B8A51DE4FACC00B002D4 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6B8A41DE4FACC00B002D4 /* Env.swift */; };
+		9D16555B3CB90FAD35DF6187 /* Pods_CubeTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3256530272CA965CAECFACC4 /* Pods_CubeTimerTests.framework */; };
+		F7D50F35BEE302320A2D1FE9 /* Pods_CubeTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4A8A228A77FD041F8FAD61 /* Pods_CubeTimerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D8AB8A1DCAD31400C9E55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D8AB6D1DCAD31400C9E55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D8AB741DCAD31400C9E55B;
+			remoteInfo = CubeTimer;
+		};
+		63D8AB951DCAD31400C9E55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D8AB6D1DCAD31400C9E55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D8AB741DCAD31400C9E55B;
+			remoteInfo = CubeTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63CA52481DD453FB00FBFF6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3256530272CA965CAECFACC4 /* Pods_CubeTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636683471DCC0ED8004780F0 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		636683491DCC2DEE004780F0 /* TimesTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesTabBarController.swift; sourceTree = "<group>"; };
+		6366834B1DCC2E6C004780F0 /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		636683531DCC38BD004780F0 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		63B85CC51DD5506300F2F968 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63C8CBF91DDD5B4800B0C253 /* IndivResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndivResultsTableViewController.swift; sourceTree = "<group>"; };
+		63D8AB751DCAD31400C9E55B /* CubeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8AB781DCAD31400C9E55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D8AB7A1DCAD31400C9E55B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		63D8AB7D1DCAD31400C9E55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D8AB7F1DCAD31400C9E55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D8AB821DCAD31400C9E55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D8AB841DCAD31400C9E55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D8AB891DCAD31400C9E55B /* CubeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8AB8D1DCAD31400C9E55B /* CubeTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTimerTests.swift; sourceTree = "<group>"; };
+		63D8AB8F1DCAD31400C9E55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D8AB941DCAD31400C9E55B /* CubeTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8AB981DCAD31400C9E55B /* CubeTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTimerUITests.swift; sourceTree = "<group>"; };
+		63D8AB9A1DCAD31400C9E55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E6B89E1DE4DA4100B002D4 /* AnalyticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsTableViewController.swift; sourceTree = "<group>"; };
+		63E6B8A01DE4F2D700B002D4 /* ScatterPlotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterPlotViewController.swift; sourceTree = "<group>"; };
+		63E6B8A21DE4FA9500B002D4 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		63E6B8A41DE4FACC00B002D4 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		72983CA8F76931B0C95A698B /* Pods-CubeTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimerUITests/Pods-CubeTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4A8A228A77FD041F8FAD61 /* Pods_CubeTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE3241B019EBD1A3A6DA686 /* Pods-CubeTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimer/Pods-CubeTimer.release.xcconfig"; sourceTree = "<group>"; };
+		BFE328791DADC3D6DA1A4677 /* Pods-CubeTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimerTests/Pods-CubeTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E6CC96E973B5649B8DFF7A /* Pods-CubeTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimerTests/Pods-CubeTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E65F0933F1EF886BB724D545 /* Pods-CubeTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimerUITests/Pods-CubeTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E755A75BDA0A6A40653B4CBF /* Pods-CubeTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeTimer/Pods-CubeTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		F08FEA6B65291CB49E3571D9 /* Pods_CubeTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D8AB721DCAD31400C9E55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A80DF2B3CC8B1839850044A /* Pods_CubeTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB861DCAD31400C9E55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D16555B3CB90FAD35DF6187 /* Pods_CubeTimerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB911DCAD31400C9E55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D50F35BEE302320A2D1FE9 /* Pods_CubeTimerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D8AB6C1DCAD31400C9E55B = {
+			isa = PBXGroup;
+			children = (
+				63D8AB771DCAD31400C9E55B /* CubeTimer */,
+				63D8AB8C1DCAD31400C9E55B /* CubeTimerTests */,
+				63D8AB971DCAD31400C9E55B /* CubeTimerUITests */,
+				63D8AB761DCAD31400C9E55B /* Products */,
+				6740E6993146426FD8288F17 /* Pods */,
+				BB4C8EC413BAB50058E0E9F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63D8AB761DCAD31400C9E55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D8AB751DCAD31400C9E55B /* CubeTimer.app */,
+				63D8AB891DCAD31400C9E55B /* CubeTimerTests.xctest */,
+				63D8AB941DCAD31400C9E55B /* CubeTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D8AB771DCAD31400C9E55B /* CubeTimer */ = {
+			isa = PBXGroup;
+			children = (
+				63D8AB781DCAD31400C9E55B /* AppDelegate.swift */,
+				636683461DCC0ED8004780F0 /* DataModel.xcdatamodeld */,
+				63D8AB7A1DCAD31400C9E55B /* TimerViewController.swift */,
+				63D8AB7C1DCAD31400C9E55B /* Main.storyboard */,
+				63C8CBF91DDD5B4800B0C253 /* IndivResultsTableViewController.swift */,
+				63D8AB7F1DCAD31400C9E55B /* Assets.xcassets */,
+				63D8AB811DCAD31400C9E55B /* LaunchScreen.storyboard */,
+				63D8AB841DCAD31400C9E55B /* Info.plist */,
+				636683491DCC2DEE004780F0 /* TimesTabBarController.swift */,
+				6366834B1DCC2E6C004780F0 /* TimeModel.swift */,
+				636683531DCC38BD004780F0 /* ResultsTableViewController.swift */,
+				63B85CC51DD5506300F2F968 /* SettingsViewController.swift */,
+				63E6B89E1DE4DA4100B002D4 /* AnalyticsTableViewController.swift */,
+				63E6B8A01DE4F2D700B002D4 /* ScatterPlotViewController.swift */,
+				63E6B8A21DE4FA9500B002D4 /* ExamplesDefaults.swift */,
+				63E6B8A41DE4FACC00B002D4 /* Env.swift */,
+			);
+			path = CubeTimer;
+			sourceTree = "<group>";
+		};
+		63D8AB8C1DCAD31400C9E55B /* CubeTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D8AB8D1DCAD31400C9E55B /* CubeTimerTests.swift */,
+				63D8AB8F1DCAD31400C9E55B /* Info.plist */,
+			);
+			path = CubeTimerTests;
+			sourceTree = "<group>";
+		};
+		63D8AB971DCAD31400C9E55B /* CubeTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63D8AB981DCAD31400C9E55B /* CubeTimerUITests.swift */,
+				63D8AB9A1DCAD31400C9E55B /* Info.plist */,
+			);
+			path = CubeTimerUITests;
+			sourceTree = "<group>";
+		};
+		6740E6993146426FD8288F17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E755A75BDA0A6A40653B4CBF /* Pods-CubeTimer.debug.xcconfig */,
+				8FE3241B019EBD1A3A6DA686 /* Pods-CubeTimer.release.xcconfig */,
+				C2E6CC96E973B5649B8DFF7A /* Pods-CubeTimerTests.debug.xcconfig */,
+				BFE328791DADC3D6DA1A4677 /* Pods-CubeTimerTests.release.xcconfig */,
+				72983CA8F76931B0C95A698B /* Pods-CubeTimerUITests.debug.xcconfig */,
+				E65F0933F1EF886BB724D545 /* Pods-CubeTimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB4C8EC413BAB50058E0E9F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F08FEA6B65291CB49E3571D9 /* Pods_CubeTimer.framework */,
+				3256530272CA965CAECFACC4 /* Pods_CubeTimerTests.framework */,
+				7D4A8A228A77FD041F8FAD61 /* Pods_CubeTimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D8AB741DCAD31400C9E55B /* CubeTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D8AB9D1DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimer" */;
+			buildPhases = (
+				5651DA8D3597FFB190C1E788 /* [CP] Check Pods Manifest.lock */,
+				63D8AB711DCAD31400C9E55B /* Sources */,
+				63D8AB721DCAD31400C9E55B /* Frameworks */,
+				63D8AB731DCAD31400C9E55B /* Resources */,
+				63CA52481DD453FB00FBFF6B /* Embed Frameworks */,
+				2920E109329A9A5CFFBBE0C7 /* [CP] Embed Pods Frameworks */,
+				21567A87EDAC3C3A4EE91E87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubeTimer;
+			productName = CubeTimer;
+			productReference = 63D8AB751DCAD31400C9E55B /* CubeTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D8AB881DCAD31400C9E55B /* CubeTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D8ABA01DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimerTests" */;
+			buildPhases = (
+				B56C43D5769E8B6D6A0D49B1 /* [CP] Check Pods Manifest.lock */,
+				63D8AB851DCAD31400C9E55B /* Sources */,
+				63D8AB861DCAD31400C9E55B /* Frameworks */,
+				63D8AB871DCAD31400C9E55B /* Resources */,
+				5B6393E0065409BE7F270256 /* [CP] Embed Pods Frameworks */,
+				D8C37B54D14FB1995A5DC651 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D8AB8B1DCAD31400C9E55B /* PBXTargetDependency */,
+			);
+			name = CubeTimerTests;
+			productName = CubeTimerTests;
+			productReference = 63D8AB891DCAD31400C9E55B /* CubeTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63D8AB931DCAD31400C9E55B /* CubeTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D8ABA31DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimerUITests" */;
+			buildPhases = (
+				53115E6D6D288CA5238CB4D8 /* [CP] Check Pods Manifest.lock */,
+				63D8AB901DCAD31400C9E55B /* Sources */,
+				63D8AB911DCAD31400C9E55B /* Frameworks */,
+				63D8AB921DCAD31400C9E55B /* Resources */,
+				1FDD3F5D30D8AA1D09DB5CE5 /* [CP] Embed Pods Frameworks */,
+				43FFC73C995E020C1FCF11DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D8AB961DCAD31400C9E55B /* PBXTargetDependency */,
+			);
+			name = CubeTimerUITests;
+			productName = CubeTimerUITests;
+			productReference = 63D8AB941DCAD31400C9E55B /* CubeTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D8AB6D1DCAD31400C9E55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sophia Lin";
+				TargetAttributes = {
+					63D8AB741DCAD31400C9E55B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					63D8AB881DCAD31400C9E55B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 63D8AB741DCAD31400C9E55B;
+					};
+					63D8AB931DCAD31400C9E55B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 63D8AB741DCAD31400C9E55B;
+					};
+				};
+			};
+			buildConfigurationList = 63D8AB701DCAD31400C9E55B /* Build configuration list for PBXProject "CubeTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D8AB6C1DCAD31400C9E55B;
+			productRefGroup = 63D8AB761DCAD31400C9E55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D8AB741DCAD31400C9E55B /* CubeTimer */,
+				63D8AB881DCAD31400C9E55B /* CubeTimerTests */,
+				63D8AB931DCAD31400C9E55B /* CubeTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D8AB731DCAD31400C9E55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D8AB831DCAD31400C9E55B /* LaunchScreen.storyboard in Resources */,
+				63D8AB801DCAD31400C9E55B /* Assets.xcassets in Resources */,
+				63D8AB7E1DCAD31400C9E55B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB871DCAD31400C9E55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB921DCAD31400C9E55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FDD3F5D30D8AA1D09DB5CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimerUITests/Pods-CubeTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21567A87EDAC3C3A4EE91E87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimer/Pods-CubeTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2920E109329A9A5CFFBBE0C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimer/Pods-CubeTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FFC73C995E020C1FCF11DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimerUITests/Pods-CubeTimerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53115E6D6D288CA5238CB4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5651DA8D3597FFB190C1E788 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6393E0065409BE7F270256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimerTests/Pods-CubeTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56C43D5769E8B6D6A0D49B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C37B54D14FB1995A5DC651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeTimerTests/Pods-CubeTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D8AB711DCAD31400C9E55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E6B89F1DE4DA4100B002D4 /* AnalyticsTableViewController.swift in Sources */,
+				6366834A1DCC2DEE004780F0 /* TimesTabBarController.swift in Sources */,
+				636683541DCC38BD004780F0 /* ResultsTableViewController.swift in Sources */,
+				63B85CC61DD5506300F2F968 /* SettingsViewController.swift in Sources */,
+				63E6B8A31DE4FA9500B002D4 /* ExamplesDefaults.swift in Sources */,
+				63C8CBFA1DDD5B4800B0C253 /* IndivResultsTableViewController.swift in Sources */,
+				63D8AB7B1DCAD31400C9E55B /* TimerViewController.swift in Sources */,
+				63D8AB791DCAD31400C9E55B /* AppDelegate.swift in Sources */,
+				636683481DCC0ED8004780F0 /* DataModel.xcdatamodeld in Sources */,
+				63E6B8A51DE4FACC00B002D4 /* Env.swift in Sources */,
+				63E6B8A11DE4F2D700B002D4 /* ScatterPlotViewController.swift in Sources */,
+				6366834C1DCC2E6C004780F0 /* TimeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB851DCAD31400C9E55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D8AB8E1DCAD31400C9E55B /* CubeTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D8AB901DCAD31400C9E55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D8AB991DCAD31400C9E55B /* CubeTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D8AB8B1DCAD31400C9E55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D8AB741DCAD31400C9E55B /* CubeTimer */;
+			targetProxy = 63D8AB8A1DCAD31400C9E55B /* PBXContainerItemProxy */;
+		};
+		63D8AB961DCAD31400C9E55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D8AB741DCAD31400C9E55B /* CubeTimer */;
+			targetProxy = 63D8AB951DCAD31400C9E55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D8AB7C1DCAD31400C9E55B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D8AB7D1DCAD31400C9E55B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D8AB811DCAD31400C9E55B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D8AB821DCAD31400C9E55B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D8AB9B1DCAD31400C9E55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D8AB9C1DCAD31400C9E55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D8AB9E1DCAD31400C9E55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E755A75BDA0A6A40653B4CBF /* Pods-CubeTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = CubeTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63D8AB9F1DCAD31400C9E55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE3241B019EBD1A3A6DA686 /* Pods-CubeTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = CubeTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63D8ABA11DCAD31400C9E55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E6CC96E973B5649B8DFF7A /* Pods-CubeTimerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CubeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CubeTimer.app/CubeTimer";
+			};
+			name = Debug;
+		};
+		63D8ABA21DCAD31400C9E55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE328791DADC3D6DA1A4677 /* Pods-CubeTimerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CubeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CubeTimer.app/CubeTimer";
+			};
+			name = Release;
+		};
+		63D8ABA41DCAD31400C9E55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72983CA8F76931B0C95A698B /* Pods-CubeTimerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CubeTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CubeTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63D8ABA51DCAD31400C9E55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65F0933F1EF886BB724D545 /* Pods-CubeTimerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CubeTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS-242.CubeTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CubeTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D8AB701DCAD31400C9E55B /* Build configuration list for PBXProject "CubeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D8AB9B1DCAD31400C9E55B /* Debug */,
+				63D8AB9C1DCAD31400C9E55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D8AB9D1DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D8AB9E1DCAD31400C9E55B /* Debug */,
+				63D8AB9F1DCAD31400C9E55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D8ABA01DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D8ABA11DCAD31400C9E55B /* Debug */,
+				63D8ABA21DCAD31400C9E55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D8ABA31DCAD31400C9E55B /* Build configuration list for PBXNativeTarget "CubeTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D8ABA41DCAD31400C9E55B /* Debug */,
+				63D8ABA51DCAD31400C9E55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		636683461DCC0ED8004780F0 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				636683471DCC0ED8004780F0 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 636683471DCC0ED8004780F0 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63D8AB6D1DCAD31400C9E55B /* Project object */;
+}
